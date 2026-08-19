@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "socialrobot": {
+      "url": "https://socialrobot.io/api/mcp"
+    }
+  }
+}
