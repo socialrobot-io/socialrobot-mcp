@@ -1,0 +1,10 @@
+{
+  "name": "socialrobot-mcp",
+  "version": "0.1.0",
+  "description": "Schedule and analyze social media posts from Gemini via the SocialRobot MCP server (remote OAuth, free on every plan).",
+  "mcpServers": {
+    "socialrobot": {
+      "httpUrl": "https://socialrobot.io/api/mcp"
+    }
+  }
+}
