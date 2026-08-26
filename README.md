@@ -1,5 +1,7 @@
 # SocialRobot MCP Server
 
+[![smithery badge](https://smithery.ai/badge/ntorres-dev/socialrobot-io)](https://smithery.ai/servers/ntorres-dev/socialrobot-io)
+
 Schedule and analyze social media posts from Claude, ChatGPT, Cursor, Gemini, or any MCP client. Remote server, OAuth sign-in, included on every plan.
 
 - **Server URL:** https://socialrobot.io/api/mcp
