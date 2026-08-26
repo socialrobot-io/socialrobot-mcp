@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "socialrobot": {
+      "type": "http",
+      "url": "https://socialrobot.io/api/mcp",
+      "note": "SocialRobot's hosted MCP server for scheduling and analyzing social media posts across 9 platforms (Instagram, LinkedIn, X, TikTok, Facebook, Threads, Pinterest, Bluesky, Mastodon). On first connection the agent is prompted to authorize via browser OAuth. Free on every plan, including Free."
+    }
+  }
+}

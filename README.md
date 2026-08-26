@@ -2,7 +2,7 @@
 
 [![smithery badge](https://smithery.ai/badge/ntorres-dev/socialrobot-io)](https://smithery.ai/servers/ntorres-dev/socialrobot-io)
 
-Schedule and analyze social media posts from Claude, ChatGPT, Cursor, Gemini, or any MCP client. Remote server, OAuth sign-in, included on every plan.
+Schedule and analyze social media posts from Claude, ChatGPT, Cursor, Gemini, Grok Build, or any MCP client. Remote server, OAuth sign-in, included on every plan.
 
 - **Server URL:** https://socialrobot.io/api/mcp
 - **Docs:** https://socialrobot.io/mcp
@@ -34,6 +34,10 @@ Connect the server once, complete OAuth, and the assistant can:
 ### Gemini CLI
 
 Once the gallery indexes this repo, `gemini extensions install github.com/socialrobot-io/socialrobot-mcp`. The repo ships a `gemini-extension.json` with the remote server URL.
+
+### Grok Build
+
+Listed in the [xAI plugin marketplace](https://github.com/xai-org/plugin-marketplace). Install the `socialrobot` plugin from the marketplace to get the MCP server plus a post-scheduling skill, then authorize via browser OAuth on first use.
 
 ### Cline
 
