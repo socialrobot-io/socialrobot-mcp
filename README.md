@@ -31,6 +31,17 @@ Connect the server once, complete OAuth, and the assistant can:
 3. Approve the OAuth scopes. Publishing and media are separate scopes, so analytics-only access is possible.
 4. Ask for what you want: "Schedule a LinkedIn post about our launch for Tuesday 9am EST."
 
+### Claude Code plugin
+
+This repo doubles as a Claude Code plugin: `.claude-plugin/plugin.json` (manifest), `.mcp.json` (the remote OAuth server), and `skills/socialrobot-post-scheduling/` (post-scheduling workflow with per-platform adaptation and best-time hints). `claude plugin validate .` passes clean, `--strict` included.
+
+While the community listing is under review, load it from a local clone:
+
+```bash
+git clone https://github.com/socialrobot-io/socialrobot-mcp.git
+claude --plugin-dir ./socialrobot-mcp
+```
+
 ### Gemini CLI
 
 Once the gallery indexes this repo, `gemini extensions install github.com/socialrobot-io/socialrobot-mcp`. The repo ships a `gemini-extension.json` with the remote server URL.
