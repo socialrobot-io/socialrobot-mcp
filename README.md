@@ -18,9 +18,9 @@ Connect the server once, complete OAuth, and the assistant can:
 - Pull account and post analytics plus follower demographics
 - Use platform extras: Instagram best-time windows, TikTok creator info, Pinterest board management, LinkedIn people and organization search
 
-## Tools (17)
+## Tools (20)
 
-`list_connected_accounts`, `create_post`, `list_posts`, `delete_post`, `reschedule_post`, `get_media_upload_url`, `get_account_analytics`, `get_post_analytics`, `get_posts_with_analytics`, `get_follower_demographics`, `linkedin_search_geo_locations`, `linkedin_search_people_mentions`, `linkedin_search_organizations`, `instagram_best_post_times`, `tiktok_get_creator_info`, `pinterest_list_boards`, `pinterest_create_board`
+`list_connected_accounts`, `create_post`, `list_posts`, `update_post`, `delete_post`, `reschedule_post`, `get_media_upload_url`, `upload_media`, `get_account_analytics`, `get_post_analytics`, `get_posts_with_analytics`, `get_follower_demographics`, `linkedin_search_geo_locations`, `linkedin_search_people_mentions`, `linkedin_search_organizations`, `instagram_best_post_times`, `tiktok_get_creator_info`, `get_pinterest_top_pins`, `pinterest_list_boards`, `pinterest_create_board`
 
 ## Quickstart
 
@@ -44,7 +44,11 @@ claude --plugin-dir ./socialrobot-mcp
 
 ### Gemini CLI
 
-Once the gallery indexes this repo, `gemini extensions install github.com/socialrobot-io/socialrobot-mcp`. The repo ships a `gemini-extension.json` with the remote server URL.
+```bash
+gemini extensions install https://github.com/socialrobot-io/socialrobot-mcp
+```
+
+Ships `gemini-extension.json` (remote OAuth server, no local process), `GEMINI.md` context, and the bundled `socialrobot-post-scheduling` skill. The first call that needs access triggers an OAuth challenge: run `/mcp auth socialrobot` and approve in the browser. Indexed by the Gemini CLI extension gallery through the `gemini-cli-extension` topic; if it is not listed yet, install directly from the repo URL above.
 
 ### Grok Build
 
