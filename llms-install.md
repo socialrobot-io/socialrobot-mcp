@@ -16,6 +16,6 @@ Ask Cline: "List my connected social accounts". It should call `list_connected_a
 
 ## Notes
 
-- The server exposes 17 tools across publishing, media, analytics, audience, and platform extras.
+- The server exposes 20 tools across publishing, media, analytics, audience, and platform extras.
 - Publishing and media are separate OAuth scopes; analytics-only access is possible.
 - MCP is included on every SocialRobot plan, including the free tier.
