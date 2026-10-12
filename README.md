@@ -52,7 +52,7 @@ Ships `gemini-extension.json` (remote OAuth server, no local process), `GEMINI.m
 
 ### Grok Build
 
-Listed in the [xAI plugin marketplace](https://github.com/xai-org/plugin-marketplace). Install the `socialrobot` plugin from the marketplace to get the MCP server plus a post-scheduling skill, then authorize via browser OAuth on first use.
+Submitted to the [xAI plugin marketplace](https://github.com/xai-org/plugin-marketplace/pull/372) (pending review). Once listed, install the `socialrobot` plugin from the marketplace to get the MCP server plus a post-scheduling skill, then authorize via browser OAuth on first use.
 
 ### Cline
 

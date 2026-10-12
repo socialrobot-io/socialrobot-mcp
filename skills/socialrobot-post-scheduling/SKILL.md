@@ -12,7 +12,7 @@ description: >-
 # SocialRobot post scheduling
 
 SocialRobot is a social media scheduling SaaS. Its hosted MCP server
-(`https://socialrobot.io/api/mcp`) exposes ~17 tools across 9 platforms:
+(`https://socialrobot.io/api/mcp`) exposes ~20 tools across 9 platforms:
 Instagram, LinkedIn, X (Twitter), TikTok, Facebook, Threads, Pinterest,
 Bluesky, and Mastodon. It is free on every plan, including Free. First
 connection uses browser OAuth; no API key to paste.
