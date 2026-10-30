@@ -2,8 +2,8 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "socialrobot",
   "displayName": "SocialRobot",
-  "version": "1.0.0",
-  "description": "Schedule and analyze social media posts across Instagram, LinkedIn, X, TikTok, Facebook, Threads, Pinterest, Bluesky, and Mastodon. Ships the SocialRobot remote MCP server (OAuth, 20 tools) plus a post-scheduling skill that adapts copy per platform.",
+  "version": "1.1.0",
+  "description": "Schedule and analyze social media posts across Instagram, LinkedIn, X, TikTok, Facebook, Threads, Pinterest, Bluesky, Mastodon, and Google Business Profile. Ships the SocialRobot remote MCP server (OAuth, 25 tools) plus a post-scheduling skill that adapts copy per platform.",
   "author": {
     "name": "SocialRobot",
     "email": "hey@socialrobot.io",

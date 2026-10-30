@@ -13,15 +13,20 @@ Schedule and analyze social media posts from Claude, ChatGPT, Cursor, Gemini, Gr
 
 Connect the server once, complete OAuth, and the assistant can:
 
-- List connected accounts
-- Create, schedule, list, reschedule, and delete posts
+- List connected accounts, your brands (projects), and what your plan has left this month
+- Read what SocialRobot learned about each brand (offer, audience, writing voice) and the hashtags it already uses
+- Create, schedule, list, update, reschedule, and delete posts, including drafts
 - Upload media through presigned URLs
-- Pull account and post analytics plus follower demographics
+- Pull account and post analytics, a performance report of what worked, and follower demographics
 - Use platform extras: Instagram best-time windows, TikTok creator info, Pinterest board management, LinkedIn people and organization search
 
-## Tools (20)
+## Tools (25)
 
-`list_connected_accounts`, `create_post`, `list_posts`, `update_post`, `delete_post`, `reschedule_post`, `get_media_upload_url`, `upload_media`, `get_account_analytics`, `get_post_analytics`, `get_posts_with_analytics`, `get_follower_demographics`, `linkedin_search_geo_locations`, `linkedin_search_people_mentions`, `linkedin_search_organizations`, `instagram_best_post_times`, `tiktok_get_creator_info`, `get_pinterest_top_pins`, `pinterest_list_boards`, `pinterest_create_board`
+- **Accounts and brands:** `list_connected_accounts`, `list_projects`, `get_project_profile`, `get_project_tags`, `get_plan_usage`
+- **Posts:** `create_post`, `list_posts`, `update_post`, `delete_post`, `reschedule_post`
+- **Media:** `get_media_upload_url`, `upload_media`
+- **Analytics:** `get_account_analytics`, `get_post_analytics`, `get_posts_with_analytics`, `get_performance_report`, `get_follower_demographics`
+- **Platform extras:** `linkedin_search_geo_locations`, `linkedin_search_people_mentions`, `linkedin_search_organizations`, `instagram_best_post_times`, `tiktok_get_creator_info`, `get_pinterest_top_pins`, `pinterest_list_boards`, `pinterest_create_board`
 
 ## Quickstart
 
@@ -65,7 +70,7 @@ OAuth 2.0 with PKCE through the normal login page, or an API key sent as `Author
 
 ## Platforms
 
-Instagram, LinkedIn, X, TikTok, Facebook, Threads, Pinterest, Bluesky, Mastodon.
+Instagram, LinkedIn, X, TikTok, Facebook, Threads, Pinterest, Bluesky, Mastodon, Google Business Profile.
 
 ## Links
 

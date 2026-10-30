@@ -1,9 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.socialrobot/socialrobot",
+  "name": "io.socialrobot/socialrobot-mcp",
   "title": "SocialRobot",
-  "description": "Schedule and analyze social media posts across 9 platforms via OAuth. Free on every plan.",
-  "version": "1.0.0",
+  "description": "Schedule and analyze posts on 10 social networks from AI assistants. 25 tools, free on every plan.",
+  "version": "0.2.0",
   "websiteUrl": "https://socialrobot.io",
   "repository": {
     "url": "https://github.com/socialrobot-io/socialrobot-mcp",
