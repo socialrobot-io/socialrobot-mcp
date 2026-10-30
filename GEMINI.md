@@ -8,11 +8,14 @@ including Free.
 ## What it can do
 
 - List connected social accounts across Instagram, LinkedIn, X, TikTok, Facebook,
-  Threads, Pinterest, Bluesky, and Mastodon.
+  Threads, Pinterest, Bluesky, Mastodon, and Google Business Profile.
+- List the user's brands (projects), read what SocialRobot learned about each one
+  (offer, audience, writing voice) and the hashtags it uses, and check what the plan
+  has left this month.
 - Create, schedule, list, update, reschedule, and delete posts.
 - Upload media, either through a presigned URL or the byte upload fallback.
-- Read account and post analytics, follower demographics, and Instagram best-time
-  windows.
+- Read account and post analytics, a performance report of what worked, follower
+  demographics, and Instagram best-time windows.
 - Platform extras: LinkedIn people, organization, and location search for mentions;
   Pinterest boards and top pins; TikTok creator info.
 

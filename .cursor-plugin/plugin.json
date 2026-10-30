@@ -1,8 +1,8 @@
 {
   "name": "socialrobot",
   "displayName": "SocialRobot MCP",
-  "version": "0.1.0",
-  "description": "Schedule and analyze social media posts from Cursor. Remote OAuth server with 20 tools across 9 platforms (Instagram, LinkedIn, X, TikTok, Facebook, Threads, Pinterest, Bluesky, Mastodon), free on every plan.",
+  "version": "0.2.0",
+  "description": "Schedule and analyze social media posts from Cursor. Remote OAuth server with 25 tools across 10 platforms (Instagram, LinkedIn, X, TikTok, Facebook, Threads, Pinterest, Bluesky, Mastodon, Google Business Profile), free on every plan.",
   "author": {
     "name": "SocialRobot",
     "email": "hey@socialrobot.io"

@@ -3,8 +3,8 @@ name: socialrobot-post-scheduling
 description: >-
   Schedule and analyze social media posts with SocialRobot. Use whenever the
   user wants to create, schedule, or publish social media content to Instagram,
-  LinkedIn, X (Twitter), TikTok, Facebook, Threads, Pinterest, Bluesky, or
-  Mastodon, or wants to review post performance. Connect the SocialRobot MCP
+  LinkedIn, X (Twitter), TikTok, Facebook, Threads, Pinterest, Bluesky,
+  Mastodon, or Google Business Profile, or wants to review post performance. Connect the SocialRobot MCP
   server (remote OAuth at socialrobot.io/api/mcp), which exposes tools for
   connected accounts, post creation, scheduling, publishing, and analytics.
 ---
@@ -12,9 +12,9 @@ description: >-
 # SocialRobot post scheduling
 
 SocialRobot is a social media scheduling SaaS. Its hosted MCP server
-(`https://socialrobot.io/api/mcp`) exposes ~20 tools across 9 platforms:
+(`https://socialrobot.io/api/mcp`) exposes 25 tools across 10 platforms:
 Instagram, LinkedIn, X (Twitter), TikTok, Facebook, Threads, Pinterest,
-Bluesky, and Mastodon. It is free on every plan, including Free. First
+Bluesky, Mastodon, and Google Business Profile. It is free on every plan, including Free. First
 connection uses browser OAuth; no API key to paste.
 
 ## Workflow
